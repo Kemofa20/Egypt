@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="lostyle.css">
+</head>
+<body>
+    <form>
+    <label for="name" >
+        Name: <input type="text" id="name" required placeholder="Name">
+    </label>
+    <br>
+    <label for="Email" >
+      Email: <input type="email" id="mail" required placeholder="Email">
+    </label>
+    <br>
+    <label for="Phone number" >
+       Phone number: <input type="tel" id="Phone" required placeholder="Phone number">
+    </label>
+    <br>
+    <label for="gender">
+        Gender
+    </label>
+    <br>
+    <input type="radio" id="male" value="male">
+    <label for="male" class="inline-label">Male</label>
+<br>
+    <input type="radio" id="female" value="female">
+    <label for="female" class="inline-label">Female</label>
+<br>
+    <label for="date">Deputure date</label>
+    <input type="date" id="date" name="date">
+    <br>
+    <label for="date">Arriving date</label>
+    <input type="date" id="date" name="date">
+    <br>
+    <label for="cities">where do you like to travel</label>
+    <select name="cities" id="cities"><option>choose one</option>    
+        <option value="cairo">Cairo</option>
+        <option value="Alexandria">Alexandria</option>
+        <option value="Luxor">Luxor</option>
+        <option value="Aswan">Aswan</option>
+        <option value="Mecca">Mecca</option></select>
+        <br>
+        <label for="file">upload file</label>
+        <input type="file" id="file" name="file">
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

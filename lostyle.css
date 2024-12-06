@@ -1,0 +1,54 @@
+html{
+    background-image: url(https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: raleway;
+    padding: 19px;
+    border-radius: 10px;
+
+}
+label{
+    display: block;
+    margin: 1em;
+}
+input ,select{
+display: block;
+width: 100%;
+font-size: 20px;
+padding: 0.3em;
+background-color: #fbfbfb;
+border: solid 1px #ccc ;
+resize: vertical;
+border-radius: 10px;
+}
+input[type=radio]{
+    display: inline;
+    width: auto;
+}
+inline-label{
+    display: inline;
+    width: auto; 
+}
+input[type=submit]:hover,
+input[type=submit]:focus{
+    outline: none;
+    background: rgb(5,188,29);
+}
+input[type=reset]:hover,
+input[type=reset]:focus{
+    outline: none;
+    background: rgb(193,3,18);
+}
+input[type=reset],
+input[type=submit]{
+    background: rgb(12, 12, 177);
+    color: white;
+    margin-top:1em;
+    border-radius: 10px;
+}
